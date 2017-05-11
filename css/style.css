@@ -1,0 +1,197 @@
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2em;
+	color: #fff;
+}
+
+h2 {
+	font-family: 'Josefin Sans', serif;
+	font-size: 1.5em;
+	color: #fff;
+}
+
+p {
+	font-family: 'Lato', serif;
+	font-size: 1em;
+	color: #fff;
+	line-height: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	color: #b6b6b6;
+}
+
+#coverPage {
+	height: 100vh;
+	background-image: url('../img/veerleGrinningPink.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#coverBox {
+	/*background-color: #ed145b;*/
+	background-color: #ce1350;
+	width: 40%;
+	height: 100vh;
+}
+
+header {
+	text-align: center;
+	color: #000;
+	width: 40%;
+	margin: auto;
+}
+
+header h1 {
+	margin: 0;
+	/*margin-left: 1rem;*/
+	padding-top: 2em;
+	font-size: 5em;
+}
+
+header h2 {
+	margin: 0;
+	padding-top: 1em;
+}
+
+nav {
+	text-align: center;
+	/*padding: 3em;*/
+	margin: 2em;
+	margin-top: 8em;
+	/*margin-right: 400px;*/
+}
+
+nav ul {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 7%;
+	margin: auto;
+	padding: .75em;
+	padding-top: 1.5em;
+	padding-bottom: .25em;
+	/*background-color: #fff;*/
+}
+
+nav ul li {
+	list-style-type: none;
+	/*padding: 1em;*/
+	display: inline-block;
+	width: 7%;
+	margin: -0.25em;
+	padding: 3em;
+	padding-top: 1em;
+}
+
+.boxOne {
+	background-color: #ce1350;
+}
+
+.boxTwo {
+	background-color: #009348;
+}
+
+.boxThree {
+	background-color: #006fa2;
+}
+
+.boxFour {
+	background-color: #666;
+}
+
+section {
+	height: 100vh;
+}
+
+article {
+	width: 40%;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+#one {
+	/*background-color: #00a651;*/
+	background-color: #009348;
+}
+
+#one img {
+	float: left;
+	height: 100vh;
+}
+
+#one article {
+	float: left;
+	width: 50%;
+}
+
+#one h1 {
+	margin: 2em;
+	margin-bottom: 1em;
+}
+
+#one p {
+	margin-left: 4em;
+}
+
+#two {
+	background-color: #006fa2;
+	/*padding: 3em;*/
+}
+
+#two article {
+	margin: 3em 3em -3em 4em;
+	float: left;
+	/*padding: 2em 0;*/
+}
+
+#two a {
+	color: #00f6ff;
+}
+
+#two img {
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 10px;
+}
+
+#gallery {
+	padding: 3em;
+}
+
+#credits {
+	height: 275px;
+}
+
+#credits a {
+	color: #00f6ff;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	padding-top: 1.5em;
+}
+
+.columnOne {
+	background-color: #444;
+	clear: left;
+}
+
+.columnTwo {
+	background-color: #666;
+}
+
+
+
+
